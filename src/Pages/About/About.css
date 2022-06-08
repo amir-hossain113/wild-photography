@@ -1,0 +1,10 @@
+.about{
+    display: flex;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+.about img{
+    width: 510px;
+    height: 600px;
+    padding: 20px;
+}

@@ -1,0 +1,22 @@
+.service{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border: 1px solid goldenrod;
+    padding: 20px;
+}
+.service img{
+    width: 510px;
+    height: 340px;
+}
+
+
+@media only screen and (max-width: 576px){
+    .service{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service img{
+        width: 410px;
+        height: 210px;
+    }
+}
